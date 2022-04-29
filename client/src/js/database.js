@@ -13,11 +13,11 @@ const initdb = async () =>
   });
 
 export const putDb = async (content) => {
-  const pwaDB = await openDB('pwaDB', 1);
+  const jateDb = await openDB('jate', 1);
 
-  const transaction = jateDb.transaction('pwaDB', 'readwrite');
+  const transaction = jateDb.transaction('jate', 'readwrite');
 
-  const storeTransaction = tx.objectStore('pwaDB');
+  const storeTransaction = tx.objectStore('jate');
 
   const updateRequest = store.put({ id: 1, value: content });
 
@@ -27,11 +27,11 @@ export const putDb = async (content) => {
 
 export const getDb = async () => {
 
-  const pwaDB = await openDB('pwaDB', 1);
+  const jateDb = await openDB('jate', 1);
 
-  const transaction = jateDb.transaction('pwaDB', 'readonly');
+  const transaction = jateDb.transaction('jate', 'readonly');
 
-  const storeTransaction = tx.objectStore('pwaDB');
+  const storeTransaction = tx.objectStore('jate');
 
   const request = store.get(1);
   const result = await request;
