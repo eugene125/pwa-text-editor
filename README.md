@@ -9,14 +9,10 @@
 
 A lightweight text editor you can run from the browser.
 
-## GitHub Repository
-
-[Repository link for my PWA text editor assignment](https://github.com/eugene125/pwa-text-editor)
-
 ## Links
 
-[Deployed application](https://pwa-text-editor-ea.herokuapp.com/)
-[GitHub repository](https://github.com/eugene125/pwa-text-editor)
+- [Deployed application](https://pwa-text-editor-ea.herokuapp.com/)
+- [GitHub repository](https://github.com/eugene125/pwa-text-editor)
 
 ## License:
 
